@@ -59,7 +59,7 @@ body{
   
   
   .circle{
-    background-image: url('/Images/laptop.jpg');
+    background-image: url('./Images/laptop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     filter: drop-shadow(20px 10px 15px #000000);
