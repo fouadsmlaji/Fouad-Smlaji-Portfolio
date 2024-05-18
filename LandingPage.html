@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fouad Smlaji Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="./Images/Fouad-logo.png" type="image/icon type" >
+    <link rel="icon" href="/Images/Fouad-logo.png" type="image/icon type" >
     
   </head>
   <body>
@@ -20,10 +20,10 @@
 
     <!-- header -->
     <header>
-      <nav class="flex items-center justify-between flex-wrap p-6 fixed w-full z-10  ">
+      <nav class="flex items-center justify-between flex-wrap p-6 fixed w-full z-50  ">
         <div class="flex items-center flex-no-shrink text-white mr-6">
           <a class="text-white flex hover:text-white" href="#">
-            <img src="./Images/Fouad-logo.png" alt="" class="rounded-full h-12">
+            <img src="/Images/Fouad-logo.png" alt="" class="rounded-full h-12">
           </a>
         </div>
     
@@ -58,45 +58,45 @@
      
      <div class="main-container flex flex-col justify-center  " id="home">
       <div
-        class="flex flex-col md:flex-row lg:h-screen  md:h-full h-full  w-screen justify-center overflow-hidden  "
+        class="flex flex-col md:flex-row h-full  w-full justify-center overflow-hidden lg:pt-36 pt-20 relative "
       >
-        <div class="left-section hidden lg:flex items-center flex-row  w-1/3" >
-          <span
-            class=" front-end-text text-indigo-300 mt-24 " 
-          >
-            Front-end Developer 
-          </span>
-
-          <div class="flex flex-col items flex mt-28">
-            <div class="flex">
-              <ul class="flex text-9xl text-white">
-                <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">F</li>
-                <li class="list hover:text-yellow-200 transition ease-in-out duration-500 cursor-pointer">O</li>
-                <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">U</li>
-                <li class="list hover:text-yellow-200 transition ease-in-out duration-500 cursor-pointer">A</li>
-                <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">D</li>
-              </ul>
-            </div>
-            <div class="flex">
-              <ul class="flex text-9xl text-white">
-                <li class="list transition ease-in-out duration-400 cursor-pointer" >S</li>
-                <li class="list transition ease-in-out duration-400 cursor-pointer">M</li>
-                <li class="list transition ease-in-out duration-400 cursor-pointer">L</li>
-                <li class="list transition ease-in-out duration-400 cursor-pointer">A</li>
-                <li class="list transition ease-in-out duration-400 cursor-pointer">J</li>
-                <li class="list transition ease-in-out duration-400 cursor-pointer">I</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         
-        <div class="photo flex mx-auto lg:justify-start lg:ml-10 sm:justify-center overflow-hidden " style="max-height: 700px; " > 
-          <img src="./Images/1.png" alt="" class="photo pt-32   " style="filter: drop-shadow(10px 0px 10px #b4b4b4); "  />
+         
+          <span
+          class=" front-end-text text-indigo-300 absolute left-0 ml-12 mt-36 lg:flex hidden" 
+        >
+          Front-end Developer
+        </span>
+        
+         <div class="lg:flex hidden flex-col items flex absolute left-0 ml-64 mt-28">
+          <div class="flex">
+            <ul class="flex text-9xl text-white">
+              <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">F</li>
+              <li class="list hover:text-yellow-200 transition ease-in-out duration-500 cursor-pointer">O</li>
+              <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">U</li>
+              <li class="list hover:text-yellow-200 transition ease-in-out duration-500 cursor-pointer">A</li>
+              <li class="list hover:text-blue-200 transition ease-in-out duration-500 cursor-pointer">D</li>
+            </ul>
+          </div>
+          <div class="flex">
+            <ul class="flex text-9xl text-white">
+              <li class="list transition ease-in-out duration-400 cursor-pointer" >S</li>
+              <li class="list transition ease-in-out duration-400 cursor-pointer">M</li>
+              <li class="list transition ease-in-out duration-400 cursor-pointer">L</li>
+              <li class="list transition ease-in-out duration-400 cursor-pointer">A</li>
+              <li class="list transition ease-in-out duration-400 cursor-pointer">J</li>
+              <li class="list transition ease-in-out duration-400 cursor-pointer">I</li>
+            </ul>
+          </div>
+        </div> 
+        
+      
+        <div class="photo flex mx-auto " style="max-height: 550px; max-width: 470px; " > 
+          <img src="./Images/1.png" alt="" class=" z-40" style="filter: drop-shadow(10px 0px 10px #b4b4b4);"  />
         </div>
 
 
-        <div class="lg:flex items-end flex-col hidden">
+         <div class="lg:flex items-end flex-col hidden absolute right-0 ">
           <div class="flex flex-row md:flex-col h-full w-24 items-center gap-4 pt-56 ">
             <span class="follow-me inline-block mt-10 text-2xl text-gray-300 tracking-wide whitespace-nowrap">// Follow me</span>
             <div class="flex flex-col pt-16 justify-center items-center gap-4">
@@ -105,33 +105,33 @@
             <a href="www.linkedin.com/in/fouad-smlaji-a777021b6" class="fa fa-linkedin-square text-blue-700 bg-white p-2 rounded-full hover:opacity-70 transition ease-in-out duration-400"></a>
             </div>
           </div>
-        </div>
+        </div> 
   
     </div>
    
 
     <!-- About me -->
-    <div class="container2 flex lg:h-screen md:h-screen h-full max-w-full bg-black " id="aboutme1" >
-      <div class="flex lg:flex-row md:flex-row flex-col justify-center items-center h-full mx-auto lg:gap-40 gap-28 lg:pt-36 md:pt-0 pb-20">
+    <div class="about flex lg:h-screen md:h-full h-full max-w-full bg-black " id="aboutme1" >
+      <div class="flex lg:flex-row  flex-col justify-center items-center h-full mx-auto lg:gap-40 gap-28 lg:pt-36 md:pt-0 lg:pb-20 ">
 
-        <div class="flex h-80 lg:my-48 md:my-48 lg:mt-72 md:mt-72 mt-36 flex-col justify-center items-center md:gap-10 lg:gap-16 gap-12" style="filter: drop-shadow(5px 5px 10px #000000);">
+        <div class="flex h-80 lg:my-48 md:my-10 lg:mt-72 md:mt-40 mt-36 flex-col justify-center items-center md:gap-10 lg:gap-16 gap-12" style="filter: drop-shadow(5px 5px 10px #000000);">
           <div class="flex flex-row lg:gap-16 md:gap-16 gap-10 ">
-            <img src="./Images/html.svg" alt="" class="h-20">
-          <img src="./Images/css.svg" alt="" class="h-20">
+            <img src="/Images/html.svg" alt="" class="h-20">
+          <img src="/Images/css.svg" alt="" class="h-20">
           </div>
           <div class="flex flex-row lg:gap-60 md:gap-60 gap-48">
-            <img src="./Images/js.svg" alt="" class="h-20 ">
-            <img src="./Images/tailwind.svg" alt="" class="h-20">
+            <img src="/Images/js.svg" alt="" class="h-20 ">
+            <img src="/Images/tailwind.svg" alt="" class="h-20">
           </div>
           
           <div class="flex flex-row lg:gap-16 md:gap-16 gap-10">
-            <img src="./Images/Vue.svg" alt="" class="h-20">
-            <img src="./Images/git.svg" alt="" class="h-20">
+            <img src="/Images/Vue.svg" alt="" class="h-20">
+            <img src="/Images/git.svg" alt="" class="h-20">
           </div>
         </div>
-        <div class="flex flex-col justify-center items-center">
-          <h1 class="title text-white lg:text-8xl text-6xl " id="aboutme" ><span class="text-indigo-400">&#706</span > About me <span class="text-indigo-400">/&#707</span></h1>
-          <p class="text-gray-300 py-4 lg:py-10 md:text-2xl lg:text-lg max-w-80" style="max-width: 350px;"><span class="text-amber-400">&#706 P  &#707</span> <br>I'm Fouad, a passionate front-end developer with a keen eye for crafting captivating web experiences. Specializing in HTML, CSS, Vue.js, and leveraging the power of Tailwind CSS, I bring designs to life with precision and creativity. With a deep-rooted love for clean, intuitive interfaces, I thrive on transforming concepts into pixel-perfect realities. Whether it's building responsive layouts or implementing dynamic user interactions. Let's collaborate and create something remarkable together! <br> <span class="text-amber-400">&#706 /P &#707</span> <br></p>
+        <div class="flex flex-col justify-center items-center pb-20">
+          <h1 class="title text-white lg:text-8xl text-6xl md:max-w-xs lg:max-w-xl " id="aboutme" ><span class="text-indigo-400">&#706</span > About me <span class="text-indigo-400">/&#707</span></h1>
+          <p class="text-gray-300 py-4 lg:py-10 md:text-xl lg:text-xl md:max-w-md max-w-xs" ><span class="text-amber-400">&#706 P  &#707</span> <br>I'm Fouad, a passionate front-end developer with a keen eye for crafting captivating web experiences. Specializing in HTML, CSS, Vue.js, and leveraging the power of Tailwind CSS, I bring designs to life with precision and creativity. With a deep-rooted love for clean, intuitive interfaces, I thrive on transforming concepts into pixel-perfect realities. Whether it's building responsive layouts or implementing dynamic user interactions. Let's collaborate and create something remarkable together! <br> <span class="text-amber-400">&#706 /P &#707</span> <br></p>
           <div class="flex flex-row gap-10">
             <button class="contact flex h-10 w-32 rounded-full justify-center items-center text-black transition ease-in-out duration-500 hover:text-white text-lg" onclick="scrollfunction('contactme')">Contact me</button>
             <button class=" flex h-10 w-32 rounded-full justify-center items-center bg-white text-black transition ease-in-out duration-500 border-2 text-lg hover:text-white hover:bg-black">Resume</button>
@@ -157,12 +157,13 @@
         <div class="flex flex-col gap-40 w-screen">
           <!--first project-->
           <div class="flex items-center lg:gap-80 md:gap-44 gap-10 justify-start lg:pt-40 md:pt-40 pt-20">
-            <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style="width: 1000px;  mix-blend-mode:difference;">
+            <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style="  mix-blend-mode:difference;">
               <span class="text-indigo-300 text-xl">Project I</span>
-              <h2 class="text-white text-4xl">Lorem ipsum</h2>
+              <h2 class="text-white text-4xl">FOODz Website</h2>
               <div class="flex lg:flex-row md:flex-row flex-col justify-center text-start items-center lg:gap-60 md:gap-60 ">
-                <p class="text-white max-w-80 py-10 text-lg min-w-52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ab enim ipsa accusantium veniam obcaecati ipsam tempore porro doloribus. Dolor quas, minus consequatur incidunt ad unde ducimus cumque neque officiis enim ullam vitae est ipsa.</p>
-                <div class="project-photo flex rounded-full h-60 w-60 bg-white min-w-60">
+                <p class="text-white max-w-80 py-10 text-lg min-w-52">The aim of this project is to enhance the food ordering experience by making it more appealing and convenient. By allowing customers to simply scan a QR code, they can instantly access the restaurant's website, which features an eye-catching design. This enables them to browse through the menu with ease, streamlining the entire process.</p>
+                <div class="project-photo flex rounded-full h-72 w-72 bg-white min-w-60 flex ">
+                  <img src="./Images/mobile.png" alt="" class="object-cover rounded-full">
                 </div>
               </div>
               <a href="#" class="border-2 border-amber-400 py-4 lg:my-0 md:my-0 my-8  flex h-8 w-36 mx-auto rounded-full justify-center items-center whitespace-nowrap text-white transition ease-in-out duration-500"><i class="fa fa-github text-white pr-2"></i>Check on github</a>
@@ -171,7 +172,7 @@
 
           <!-- second project -->
           <div class="flex items-center lg:gap-80 md:gap-44 gap-10 justify-end">
-            <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style="width: 1000px;  mix-blend-mode:difference;">
+            <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style="mix-blend-mode:difference;">
               <span class="text-indigo-300 text-xl">Project II</span>
               <h2 class="text-white text-4xl">Lorem ipsum</h2>
               <div class="flex lg:flex-row md:flex-row flex-col justify-center text-start items-center lg:gap-60 md:gap-60">
@@ -184,7 +185,7 @@
 
         <!-- third project --> 
         <div class="flex items-center lg:gap-80 md:gap-44 gap-10 justify-start">
-          <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style="width: 1000px; mix-blend-mode:difference;">
+          <div class="flex flex-col text-center items bg-neutral-800 rounded-full lg:p-20 md:p-20 p-12 min-w-80 border-4 border-white" style=" mix-blend-mode:difference;">
             <span class="text-indigo-300 text-xl">Project III</span>
             <h2 class="text-white text-4xl">Lorem ipsum</h2>
             <div class="flex lg:flex-row md:flex-row flex-col justify-center text-start items-center lg:gap-60 md:gap-60">
@@ -207,17 +208,17 @@
       <div class="flex absolute lg:h-96 lg:w-56 h-72 w-40 bg-white left-0 opacity-90 " style=" border-radius: 0 9999px 9999px 0; margin-top: -120px; mix-blend-mode:soft-light; ;"></div>
       <div class="flex absolute lg:h-96 lg:w-56 h-72 w-40 bg-white right-0 opacity-90 " style=" border-radius: 9999px 0 0 9999px ; margin-top: -120px; mix-blend-mode:soft-light; "></div>
       
-      <div class="flex flex-col w-full bg-neutral-950 h-full border-2 pl-4 " style="border-radius: 150px 150px 0 0; height: 700px; ;">
+      <div class="flex flex-col w-full bg-neutral-950 h-full border-2  justify-between" style="border-radius: 150px 150px 0 0;">
 
-        <div class="flex justify-center items pt-8 ">
+        <div class="flex justify-center items pt-16 pb-8 ">
           <h3 class="text-6xl text-white drop-shadow-2xl ">Contact Me</h3>
         </div>
 
-        <div class="flex lg:flex-row md:flex-row flex-col items-center py-8 lg:gap-20 md:gap-20 lg:pl-32 md:pl-32 h-full  ">
+        <div class="flex lg:flex-row md:flex-col flex-col items-center py-8 lg:gap-20 lg:mx-auto h-full lg:text-start md:text-start text-center">
           <div class="flex items-center flex-col ">
-            <h4 class="text-4xl text-white mr-auto">Drop me a message</h4>
-            <p class="max-w-96 lg:py-8 md:py-8 py-4 text-white text-xl"> Let's collaborate and create something remarkable together! </p>
-            <div class="flex flex-col mr-auto gap-2  ">
+            <h4 class="text-4xl text-white lg:mr-auto md:mr-auto">Drop me a message</h4>
+            <p class="max-w-96 lg:py-8 md:py-8 py-4 text-zinc-400 text-xl lg:px-0 md:px-0 px-2 "> Let's collaborate and create something remarkable together! </p>
+            <div class="flex flex-col mr-auto gap-2 md:pl-0 lg:pl-0 pl-4 ">
              <div class="flex flex-row items-center gap-6">
                 <div class="flex h-16 w-16 rounded-full bg-white shadow-2xl justify-center items-center hover:bg-zinc-400 transition ease-in-out duration-500 cursor-pointer">
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"><path stroke="none" d="M0 0h24v24H0z"/><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2M15 7a2 2 0 0 1 2 2M15 3a6 6 0 0 1 6 6"/></svg>
@@ -239,7 +240,7 @@
           </div>
         </div>
 
-        <form class="form flex flex-col lg:h-96 md:h-96 h-72 bg-white rounded-full justify-center items-center gap-4 py-10 lg:ml-40 md:ml-0 shadow-2xl lg:mt-12 md:mt-12 mt-8  " style=" mix-blend-mode:luminosity;" id="contactme">
+        <form class="form flex flex-col h-96 bg-white rounded-full justify-center items-center gap-4 py-10 lg:ml-40 md:ml-0 shadow-2xl lg:mt-12 md:mt-12 mt-8 " style=" mix-blend-mode:luminosity; " id="contactme" >
           <input type="text" placeholder="Your Name" class="flex w-3/5 bg-gray-200 h-10 rounded-full pl-8  ">
           <input type="text" placeholder="Email" class="flex w-5/6 bg-gray-200 h-10 rounded-full pl-8">
           <input type="text" placeholder="Message" class="flex w-4/5 bg-gray-200 h-28 rounded-full pl-8">
@@ -249,7 +250,7 @@
 
       <div class="flex lg:flex-row flex-col justify-center lg:h-28 lg:gap-80 gap-6 py-4  ">
         <div class="lg:flex justify-center items-center hidden ">
-          <img src="./Images/Fouad-logo.png" alt="" class="rounded-full h-16">
+          <img src="/Images/Fouad-logo.png" alt="" class="rounded-full h-16">
         </div>
 
         <div class="flex justify-center items-center lg:pl-20 ">
